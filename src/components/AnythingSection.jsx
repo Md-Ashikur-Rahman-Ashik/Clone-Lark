@@ -37,7 +37,7 @@ const AnythingSection = () => {
         <div className="flex flex-col lg:flex-row gap-8 px-4 md:px-8 lg:px-16 py-8">
           {/* Base Card */}
           <div className="flex flex-col items-start md:w-1/3">
-            <div className="absolute lg:left-32 bottom-24 z-50">
+            <div className="absolute lg:left-32 -bottom-[260rem] z-50">
               <div className="flex items-center mb-4">
                 <img src="/BaseIcon.svg" alt="Icon of base" />
                 <h3 className="ml-3 font-medium text-gray-900">Base</h3>
@@ -57,7 +57,7 @@ const AnythingSection = () => {
 
           {/* Messenger Card */}
           <div className="flex flex-col items-start md:w-1/3">
-            <div className="absolute lg:right-16 bottom-24 z-50">
+            <div className="absolute lg:right-16 -bottom-[260rem] z-50">
               <div className="flex items-center mb-4">
                 <img src="/Messenger.svg" alt="Icon of base" />
                 <h3 className="ml-3 font-medium text-gray-900">Messenger</h3>
@@ -77,7 +77,7 @@ const AnythingSection = () => {
 
           {/* Approval Card */}
           <div className="flex flex-col items-start md:w-1/3">
-            <div className="absolute lg:-right-96 bottom-24 z-50">
+            <div className="absolute lg:-right-96 -bottom-[260rem] z-50">
               <div className="flex items-center mb-4">
                 <img src="/ApprovalIcon.svg" alt="Icon of base" />
                 <h3 className="ml-3 font-medium text-gray-900">Approval</h3>
